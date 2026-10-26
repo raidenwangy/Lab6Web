@@ -61,44 +61,37 @@ lab6_dom_event/
   ```
 
 
-  
 
 #### 2. Latihan 2 – Event `click`
 
 * **Penjelasan:** Menambahkan `addEventListener("click", ...)` pada tombol aksi. Ketika tombol diklik, paragraf akan menampilkan waktu saat tindakan dilakukan menggunakan `new Date().toLocaleTimeString()`.
 
-* **Screenshot Hasil Latihan 2:**
   
 
 #### 3. Latihan 3 – Mengubah Kelas dan Gaya CSS
 
 * **Penjelasan:** Menambahkan kelas `.highlight` dan `.teks-besar` pada file `style.css`. Pada JavaScript, digunakan method `classList.toggle()` untuk mefasilitasi bongkar-pasang kelas CSS saat tombol diklik.
 
-* **Screenshot Hasil Latihan 3:**
   
 
 #### 4. Latihan 4 – Event `input` dan Penghitung Karakter
 
 * **Penjelasan:** Memantau setiap ketikan pengguna secara *real-time* pada bidang input teks menggunakan event `input`, lalu memperbarui angka panjang string (`value.length`) pada elemen `<span>`.
 
-* **Screenshot Hasil Latihan 4:**
   
 
 #### 5. Latihan 5 – Validasi Form Pendaftaran
 
 * **Penjelasan:** Menghentikan proses pengiriman form bawaan dengan `event.preventDefault()`. Melakukan verifikasi apakah kolom nama terisi, email cocok dengan ekspresi reguler (*Regex*), serta usia berada pada rentang angka 17–100.
 
-* **Screenshot Hasil Latihan 5 (Kondisi Gagal / Error):**
-  
 
-* **Screenshot Hasil Latihan 5 (Kondisi Sukses):**
   
 
 #### 6. Latihan 6 – Daftar Tugas Sederhana (*To-do List*)
 
 * **Penjelasan:** Membuat elemen daftar baru (`<li>`) secara dinamis menggunakan `document.createElement()`. Dilengkapi tombol "Tandai Selesai" yang memanfaatkan `classList.toggle("selesai")` untuk mencoret teks tugas.
 
-* **Screenshot Hasil Latihan 6:**
+
   
 
 ### Bagian F: Mini Project – Form Pendaftaran Workshop
@@ -113,7 +106,7 @@ Mengembangkan antarmuka pendaftaran workshop dengan interaksi berikut:
 
 4. **Tombol Reset:** Mengosongkan form dan mengembalikan info status ke kondisi awal.
 
-* **Screenshot Mini Project Form Workshop:**
+
   
 
 ## Bagian G: Eksperimen Mandiri
