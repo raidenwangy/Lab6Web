@@ -1,0 +1,35 @@
+<!-- Mini Project: Form Pendaftaran Workshop -->
+<section class="card mini-project">
+    <h2>Mini Project: Form Pendaftaran Workshop</h2>
+    <form id="formWorkshop" novalidate>
+        <div class="form-group">
+            <label for="namaWs">Nama Peserta (Min 3 Karakter):</label>
+            <input type="text" id="namaWs" required placeholder="Masukkan nama lengkap...">
+        </div>
+
+        <div class="form-group">
+            <label for="emailWs">Email Peserta:</label>
+            <input type="email" id="emailWs" required placeholder="nama@email.com">
+        </div>
+
+        <div class="form-group">
+            <label for="sesiWs">Pilih Sesi Workshop:</label>
+            <select id="sesiWs" required>
+                <option value="">-- Pilih Sesi --</option>
+                <option value="Web Development Fundamentals">Web Development Fundamentals</option>
+                <option value="Advanced JavaScript DOM">Advanced JavaScript DOM</option>
+                <option value="UI/UX Design for Developers">UI/UX Design for Developers</option>
+            </select>
+        </div>
+
+        <!-- Fitur Interaktif 1: Live Info Sesi yang Dipilih -->
+        <p id="infoSesiSelected" class="info-box">Belum ada sesi yang dipilih.</p>
+
+        <div class="button-group">
+            <button type="submit" class="btn-submit">Daftar Workshop</button>
+            <button type="reset" id="resetWs" class="btn-reset">Reset Form</button>
+        </div>
+    </form>
+    <!-- Fitur Interaktif 2: Pesan Sukses / Error Berjalan -->
+    <p id="pesanWs" aria-live="polite" class="pesan-info"></p>
+</section>
